@@ -17,7 +17,8 @@
     "postbuild": "npm run optimize-images && svelte-sitemap --domain https://teod-sh.github.io/",
     "vercel-sitemap": "svelte-sitemap --out-dir .vercel/output/static --domain https://teod-sh.github.io/",
     "vercel-optimize-images": "image-transmutation --run --sourceFolder '.vercel/output/static/images' --targetFolder '.vercel/output/static/images' --inputFormats 'jpg' --inputFormats 'jpeg' --inputFormats 'png' --outputFormats 'png' --outputFormats 'webp' --outputFormats 'avif'",
-    "vercel-build": "npm run build && npm run vercel-sitemap && npm run vercel-optimize-images"
+    "vercel-build": "npm run build && npm run vercel-sitemap && npm run vercel-optimize-images",
+    "deploy-gh": "npm run build && npm gh-pages -d build"
   },
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.16.1",
@@ -27,6 +28,7 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "histoire": "^0.16.1",
     "image-transmutation": "^1.0.1",
     "mdsvex": "^0.10.6",
