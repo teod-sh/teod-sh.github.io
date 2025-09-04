@@ -5,6 +5,12 @@
 </script>
 
 <section id="about">
+	<div class="image">
+		<Image
+			src="/images/me_cartoon.png"
+			alt="Sample for the static template"
+		/>
+	</div>
 	<div class="info">
 		<h2>
 			Jhonatan Teodoro
@@ -18,12 +24,6 @@
 			<Socials />
 		</div>
 	</div>
-	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
-	</div>
 </section>
 
 <style lang="scss">
@@ -32,7 +32,7 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 250px;
+		grid-template-columns: 200px 550px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
