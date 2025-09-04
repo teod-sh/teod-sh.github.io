@@ -7,12 +7,11 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			Jhonatan Teodoro
+			<SparklingHighlight color="secondary">Software Engineer!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			Results-driven Software Engineer with 7+ years of experience architecting and delivering high-performance applications using Python and Golang across Europe, South and North America.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
