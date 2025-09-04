@@ -97,7 +97,7 @@
 	}
 
 	#article-content {
-		--main-column-width: 65ch;
+		--main-column-width: 75ch;
 		position: relative;
 		padding-top: 40px;
 		padding-bottom: 80px;
