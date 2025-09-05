@@ -18,7 +18,7 @@
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
 				><tspan
 					style="font-size:106.667px;font-family:YoungSerif;"
-					id="tspan1317">[WIP] Blog </tspan
+					id="tspan1317">[WIP] Home </tspan
 				></tspan
 			></text
 		>

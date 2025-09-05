@@ -2,42 +2,39 @@ import type { Feature } from "$lib/utils/types";
 
 export default [ 
   {
-    name: 'Markdown Support',
-    description:
-      'Blog posts are written in Markdown, a simple and nearly-universal format. This means you can bring over your posts from other platforms, and easily export to another if you want to.',
+    name: 'Python',
+    description: 'How to and it\'s why\'s',
     image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Powered by MDsveX' }]
+    tags: [{ label: 'Simple' }, { label: 'Pythonic' }, { label: 'Covering Almost All WTF\'s',  color: 'secondary'}]
   }, 
   {
-    name: 'Themeable',
-    description:
-      'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
+    name: 'Golang',
+    description: 'How to and it\'s why\'s',
     image: 'images/features/themeable.jpg',
-    tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
+    tags: [{ label: 'Simple' }, { label: 'Covering Almost All WTF\'s',  color: 'secondary'}]
   }, 
   {
-    name: 'Extensible',
-    description:
-      'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
+    name: 'System Design',
+    description: 'Comprehensive System Design Explanations And Samples',
     image: 'images/features/extensible.jpg',
+		tags: [{ label: 'Simple',  color: 'secondary'}]
   }, 
   {
-    name: 'Well Optimized',
-    description:
-      'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
+    name: 'Infrastructure',
+    description: 'How to and it\'s why\'s. Trying to share all the 2 cents that I know about it',
     image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Powered by Image Transmutation' }]
+    tags: [{ label: 'Lab',  color: 'secondary'}]
   }, 
   {
-    name: 'Light and Dark Modes',
-    description:
-      'This template was built with dark mode in mind. It can swap between themes automatically (based on system settings) or manually. Both themes can be tweaked in the _themes.scss file.',
+    name: 'Databases',
+    description: 'Exploring Databases until we return to Postgresql',
     image: 'images/features/light-dark.jpg',
+		tags: [{ label: 'Lab',  color: 'secondary'}, { label: 'SQL' }, { label: 'NoSQL' }]
   },
   {
-    name: 'Open Source',
-    description:
-      'All code is open source, which means you can copy and modify it to your heart\'s content. All I ask is that you make your code open too so that knowledge can be passed on.',
-    image: 'images/features/open-source.jpg'
+    name: 'DYI - Learning By Doing',
+    description: 'Doing one bad decision at a time we understand and build everything we want',
+    image: 'images/features/open-source.jpg',
+		tags: [{ label: 'Lab',  color: 'secondary'}, { label: 'DYI',  color: 'secondary'}]
   },
 ] as Feature[];
