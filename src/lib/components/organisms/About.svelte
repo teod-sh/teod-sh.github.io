@@ -47,6 +47,7 @@
 			display: flex;
 			flex-direction: column;
 			gap: 10px;
+			padding-top: 40px;
 			h2 {
 				@include for-phone-only {
 					text-align: center;

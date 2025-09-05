@@ -13,6 +13,8 @@ tags:
 <script>
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import LoadBalancingChart from "$lib/components/molecules/LoadBalancingChart.svelte";
+
 </script>
 
 
@@ -70,25 +72,13 @@ My setup:
 - 1 Load Balancer Server
 - 1 Client Script dispatching a couple of concurrent requests
 
-<CodeBlock lang="python" filename="sample.py">
+<LoadBalancingChart/>
 
-```py
-{server_name: amount of clients connected}
-```
-
-</CodeBlock>
-
-Round Robin ->
-<Image src="/images/posts/round_robin_sample.png" alt="NEED TO ADD" />
-
-Least Connection ->
-<Image src="/images/posts/least_connection_sample.png" alt="NEED TO ADD" />
 
 It's clear the difference between using one to another, the least connection can balance the server usage way better considering open connections, 
 while the other options may fail really hard.
 
-
-I understand you could face some problems checking this image, but you can check my [code here](https://github.com/teod-sh/websocket-lb-sample)
-It's a simple code, there's no doc there, but for illustrations purposes that's fine.
+[code here](https://github.com/teod-sh/websocket-lb-sample)
+It's a simple code, there's no doc there, but for illustration purposes that's fine.
 
 Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on linkedin!
