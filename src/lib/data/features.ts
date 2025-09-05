@@ -20,7 +20,7 @@ export default [
 		tags: [{ label: 'Simple',  color: 'secondary'}]
   }, 
   {
-    name: 'Infrastructure',
+    name: 'Infra for Devs',
     description: 'How to and it\'s why\'s. Trying to share all the 2 cents that I know about it',
     image: 'images/features/optimized.jpg',
     tags: [{ label: 'Lab',  color: 'secondary'}]

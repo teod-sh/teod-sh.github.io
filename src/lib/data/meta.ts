@@ -5,12 +5,18 @@
 export const siteBaseUrl = 'https://teod-sh.github.io/';
 
 export const keywords = [
-	'Svelte',
-	'SvelteKit',
-	'Template',
 	'Blog',
 	'Starter',
-	'Static Site'
+	'Static Site',
+	'Programming',
+	'Python',
+	'Golang',
+	'System Design',
+	'DevOps',
+	'PostgreSQL',
+	'Developer Blog',
+	'Programming Tutorials',
+	'Software Engineering'
 ];
 
 export const description =
