@@ -2,11 +2,14 @@
 slug: websocket-lb-least-connection
 title: Why RoundRobin Load Balancing is Killing The Scalability of Your WebSocket API Servers
 date: 2025-09-09T21:55:21.800Z
-excerpt: How to how to
+excerpt: How to to kill your long live connection service
 coverImage: /images/posts/project-structure.jpg
 tags:
-  - Documentation
-  - Opa
+  - Load Balancing
+  - Scalability
+  - Round Robin
+  - Least Connection
+  - System Design
 ---
 
 
@@ -14,7 +17,6 @@ tags:
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
   import LoadBalancingChart from "$lib/components/molecules/LoadBalancingChart.svelte";
-
 </script>
 
 

@@ -8,6 +8,8 @@
 	import type { BlogPost } from '$lib/utils/types';
 	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
+	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
+	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 
 	export let data: { post: BlogPost };
 	$: ({ post } = data);
@@ -83,6 +85,19 @@
 				<RelatedPosts posts={post.relatedPosts} />
 			</div>
 		{/if}
+		<div class="container">
+			<ContentSection>
+				<a
+				href="https://www.linkedin.com/in/jhonatan-teodoro"
+				target="_blank"
+				rel="noopener noreferrer"
+				title="Connect on LinkedIn"
+			>
+				<SparklingHighlight color="secondary">Did you Like it? You can Hire Me!</SparklingHighlight>
+			</a>
+			</ContentSection>
+		</div>
+
 	</main>
 
 	<Footer />
