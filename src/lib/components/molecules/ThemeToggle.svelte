@@ -2,13 +2,14 @@
 	import { theme } from '$lib/stores/theme';
 
 	function toggleTheme() {
-		if ($theme === 'auto') {
-			theme.set('light');
-		} else if ($theme === 'light') {
-			theme.set('dark');
-		} else {
-			theme.set('auto');
-		}
+		theme.set('dark');
+		// if ($theme === 'auto') {
+		// 	theme.set('light');
+		// } else if ($theme === 'light') {
+		//
+		// } else {
+		// 	theme.set('auto');
+		// }
 	}
 </script>
 

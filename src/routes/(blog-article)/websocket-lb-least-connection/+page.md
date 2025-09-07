@@ -1,7 +1,7 @@
 ---
 slug: websocket-lb-least-connection
 title: Why RoundRobin Load Balancing is Killing The Scalability of Your WebSocket API Servers
-date: 2025-09-09T21:55:21.800Z
+date: 2025-09-05T21:55:21.800Z
 excerpt: How to to kill your long live connection service
 coverImage: /images/posts/project-structure.jpg
 tags:
@@ -83,4 +83,4 @@ while the other options may fail really hard.
 [code here](https://github.com/teod-sh/websocket-lb-sample)
 It's a simple code, there's no doc there, but for illustration purposes that's fine.
 
-Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on linkedin!
+Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on LinkedIn!
