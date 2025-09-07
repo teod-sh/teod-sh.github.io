@@ -11,6 +11,7 @@ tags:
   - WSGI
   - Uvicorn
   - Gunicorn
+  - DIY
 ---
 
 <script>

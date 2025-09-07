@@ -32,9 +32,9 @@ export default [
 		tags: [{ label: 'Lab',  color: 'secondary'}, { label: 'SQL' }, { label: 'NoSQL' }]
   },
   {
-    name: 'DYI - Learning By Doing',
-    description: 'Doing one bad decision at a time we understand and build everything we want',
+    name: 'DIY - Learning By Doing',
+    description: 'Doing one bad decision at a time until we understand and build everything we want',
     image: 'images/features/open-source.jpg',
-		tags: [{ label: 'Lab',  color: 'secondary'}, { label: 'DYI',  color: 'secondary'}]
+		tags: [{ label: 'Lab',  color: 'secondary'}, { label: 'DIY',  color: 'secondary'}]
   },
 ] as Feature[];
