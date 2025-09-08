@@ -2,6 +2,9 @@
 	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
 	import type { BlogPost } from '$lib/utils/types';
 
 	export let data: {
@@ -20,6 +23,27 @@
 	
 	// Define the 3 specific tags you want to show (replace with your actual tags)
 	const featuredTags = ['Python', 'System Design', 'DIY']; // Update these with your actual tags
+
+	// Initialize selectedTags from URL parameters
+	$: if (browser && $page.url.searchParams.has('tags')) {
+		const urlTags = $page.url.searchParams.get('tags');
+		if (urlTags) {
+			selectedTags = urlTags.split(',').filter(tag => tag.trim());
+		}
+	}
+
+	// Update URL when selectedTags changes
+	function updateURL() {
+		if (!browser) return;
+		
+		const url = new URL($page.url);
+		if (selectedTags.length > 0) {
+			url.searchParams.set('tags', selectedTags.join(','));
+		} else {
+			url.searchParams.delete('tags');
+		}
+		goto(url, { replaceState: true, noScroll: true });
+	}
 
 	// Extract all unique tags from posts
 	$: allTags = Array.from(new Set(posts.flatMap(post => post.tags || []))).sort();
@@ -67,11 +91,13 @@
 		showSearchResults = false;
 		if (!selectedTags.includes(tag)) {
 			selectedTags = [...selectedTags, tag];
+			updateURL();
 		}
 	}
 
 	function clearFilters() {
 		selectedTags = [];
+		updateURL();
 	}
 	
 	function handleSearchFocus() {

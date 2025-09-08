@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import Card from '$lib/components/atoms/Card.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import type { TagType } from '$lib/utils/types';
@@ -8,9 +9,20 @@
 	export let description: string;
 	export let image: string;
 	export let tags: TagType[] | undefined;
+
+	// Create URL with tags as filters and navigate
+	function get_url() {
+		if (!name || name.length === 0) {
+			return "";
+		}
+		return `/blog?tags=${encodeURIComponent(name)}`;
+	}
 </script>
 
-<Card additionalClass="feature-card">
+<Card additionalClass="feature-card"
+	href="{get_url()}"
+	target="_self"
+>
 	<div class="image" slot="image">
 		<Image src={image} alt="Picture describing the {name} feature" />
 	</div>
