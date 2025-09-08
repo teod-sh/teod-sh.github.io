@@ -6,11 +6,11 @@ export default defineConfig({
 	theme: {
 		title: 'Histoire',
 		logo: {
-			square: './static/favicons/favicon.png',
-			light: './static/favicons/favicon.png',
-			dark: './static/favicons/favicon.png'
+			square: './static/favicons/me_cartoon_192x192.png',
+			light: './static/favicons/me_cartoon_192x192.png',
+			dark: './static/favicons/me_cartoon_192x192.png'
 		},
-		favicon: './static/favicons/favicon.ico',
+		favicon: './static/favicons/me_cartoon.ico',
 		colors: {
 			primary: defaultColors.purple
 		}
