@@ -274,6 +274,6 @@ As we did before, test by running the server with the following command: `uvicor
 
 I think we have enough for the first part, it's not perfect (and never will be) but you learned a few things (I hope at least :)
 
-*Link for Part-2 will be here when ready!*
+*[Link for Part-2!](/diy-asgi-web-framework-pt2)*
 
 Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on LinkedIn!
