@@ -43,10 +43,9 @@
 		//background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
 		--background-image: url('/images/bg.jpg');
 		background: var(--background-image) center/cover no-repeat;
-
 		position: absolute;
 		width: 100%;
-		height: min(65vh, 500px);
+		height: min(65vh, 450px);
 
 		@include for-phone-only {
 			height: min(75vh, 400px);
@@ -60,7 +59,7 @@
 		height: 15vh;
 		/*Fix for safari gap*/
 		min-height: 100px;
-		max-height: 150px;
+		max-height: 200px;
 	}
 
 	/* Animation */
