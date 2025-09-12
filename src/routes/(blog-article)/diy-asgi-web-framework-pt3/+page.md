@@ -37,7 +37,7 @@ In my [Second Article](/diy-asgi-web-framework-pt2) we have improved our framewo
 
 ## So, what's next?
 
-Well, we have a lot of things to improve and/or implement, from router improvements, handler final structure definition, add some helpers as pre-defined http responses, status codes, etc...
+Well, we have a lot of things to improve and/or implement, from router improvements, handler final structure definition, add some helpers for pre-defined http responses, status codes, etc...
 
 Let's start creating a few helpers to make our life easier in the next parts.
 
