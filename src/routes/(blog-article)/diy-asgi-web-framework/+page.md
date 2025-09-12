@@ -3,7 +3,7 @@ slug: diy-asgi-web-framework
 title: Understanding and Creating your Own ASGI Web Framework [Part-1]
 date: 2025-09-07T00:00:21.800Z
 excerpt: How does a python async web framework is under the hood and how to implement it your own
-coverImage: /images/posts/project-structure.jpg
+coverImage: /images/posts/koala_python.png
 tags:
   - ASGI
   - Web Framework
