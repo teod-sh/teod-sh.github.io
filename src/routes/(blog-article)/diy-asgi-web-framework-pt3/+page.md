@@ -495,7 +495,7 @@ if __name__ == "__main__":
 
 </CodeBlock>
 
-You can it with `python sample.py` or `uvicorn sample:app` both should work just fine.
+You can test it with `python sample.py` or `uvicorn sample:app` both should work just fine.
 
 That's all for now!
 
@@ -503,6 +503,6 @@ That's all for now!
 
 *[Link for Part-2!](/diy-asgi-web-framework-pt2)*
 
-*Link for Part-4 will be here when ready!*
+*[Link for Part-4!](/diy-asgi-web-framework-pt4)*
 
 Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on LinkedIn!

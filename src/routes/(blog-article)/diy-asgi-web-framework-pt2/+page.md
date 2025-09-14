@@ -298,7 +298,7 @@ if __name__ == "__main__":
 
 </CodeBlock>
 
-You can it with `python sample.py` or `uvicorn sample:app` both should work just fine.
+You can test it with `python sample.py` or `uvicorn sample:app` both should work just fine.
 
 I think we have enough for this part, we have evolved our framework a little bit, it's handling multiple routes and multiple methods and also have a draft structure 
 for how data flows through the application.
@@ -308,6 +308,6 @@ for how data flows through the application.
 
 *[Link for Part-1!](/diy-asgi-web-framework)*
 
-*[Link for Part-3!](/diy-asgi-web-framework)*
+*[Link for Part-3!](/diy-asgi-web-framework-pt3)*
 
 Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on LinkedIn!
