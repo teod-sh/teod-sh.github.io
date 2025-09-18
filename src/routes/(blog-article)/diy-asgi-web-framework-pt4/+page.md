@@ -381,10 +381,10 @@ This step has been really nice for me because I have never created a background 
 I hope you enjoyed it and learned something new!
 
 
-*[!Source Code!](https://github.com/teod-sh/diy_asgi_framework)*
+**[!Source Code!](https://github.com/teod-sh/diy_asgi_framework)**
 
 *[Link for Part-3!](/diy-asgi-web-framework-pt3)*
 
-*Link for Part-5 will be here when ready!*
+*[Link for Part-5!](/diy-asgi-web-framework-pt5)*
 
 Thank you for reading! If you have any complaint or want to talk, please, drop me a message on LinkedIn!
