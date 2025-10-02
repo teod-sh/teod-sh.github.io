@@ -358,4 +358,6 @@ Keep an eye in my blog, the next part will be released soon with more features.
 
 Thank you for reading! I hope you learned a little bit. If you have any complaint or want to talk please, drop me a message on linkedin!
 
+*[Link for Part-2!](/message-broker-with-golang-pt2)*
+
 **[Source Code](https://github.com/teod-sh/diy_message_broker)**
