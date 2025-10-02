@@ -16,7 +16,7 @@ tags:
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
 </script>
 
-In the [last post](TODO-TODO) I have explained the basics of a message broker and how it works internally in a high level.
+In the [last post](/message-broker-with-golang) I have explained the basics of a message broker and how it works internally in a high level.
 
 With that in mind, let's continue with this serie and talk a little bit about communication protocols.
 
