@@ -1,7 +1,7 @@
 ---
 slug: message-broker-with-golang-pt2
 title: Building a Message Broker from Scratch With Golang PT-2
-date: 2025-09-23T21:55:21.800Z
+date: 2025-10-02T21:55:21.800Z
 excerpt: Creating a message broker with golang is not that hard, but it's not that easy either.
 coverImage: /images/posts/koala_golang.png
 tags:
